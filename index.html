@@ -1,0 +1,62 @@
+<head>
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="app">
+  <img src="https://www.radioabc.com.br/wp-content/uploads/2020/03/DIVIDA-ATIVA-200320.jpg" />
+
+ <section id="event-details-container">
+      <h1>NOBANK</h1>
+
+      <p><i class="material-icons">calendar_today</i> 31 de February</p>
+      <p><i class="material-icons">location_city</i> Zoom Meeting</p>
+      <button id="startRsvp">RSVP</button>
+ 
+ </section>
+
+  <hr>
+
+  <section id="firebaseui-auth-container"></section>
+
+  <section id="About-us">
+    <h2>O que nós queremos to do?</h2>
+    <p>O Brasil tem 45 milhões de peoples desbancarizadas. We queremos existir para endividar essas pessoas!</p>
+  
+  </section>
+  
+  <section id="description-container">
+      <h2>O que iremos fazer in these event?</h2>
+      <p>Junte-se a nós para celebrate a inclusão de novas pessoas no Serasa! Para isso, teremos muita beer, pizza e little wraped de presunto e queijo</p>
+      
+      <p id="number-attending"></p>
+
+  </section>
+
+   <section class="guestbook-container">
+     <h2>Você irá comparecer?</h2>
+      <button id="rsvp-yes">Sim</button>
+      <button id="rsvp-no">No</button>
+      
+      <br>
+      
+      <h3>You deve estar se perguntando why estamos misturando english com português. É porque queremos mostrar to shoe como iremos ser no market. Cheio de contradições para confundir ainda mais a head dos nossos clientes</h3>
+
+   <h2>Discussion</h2>
+
+   <form id="leave-message">
+     <label>Leave a sua messagem: </label>
+     <input type="text" id="message">
+     <button type="submit">
+       <i class="material-icons">send</i>
+       <span>Send</span>
+     </button>
+   </form>
+   
+   <section id="guestbook"></section>
+
+ </section>
+
+</div>
